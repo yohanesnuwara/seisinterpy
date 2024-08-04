@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from scipy.interpolate import interpn
+import segyio
 
 def openSegy3D(filename, iline=189, xline=193):
   """
